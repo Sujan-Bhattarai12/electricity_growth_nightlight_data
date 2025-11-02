@@ -216,17 +216,6 @@
     </div>
 </div>
 
-<div class="container">
-    <div class="alert">
-        <div class="alert-title">Scientific Disclaimer</div>
-        <div class="alert-content">
-            This analysis uses satellite-derived nighttime lights as a proxy for electricity access and economic activity. 
-            Interpretation requires caution: correlation does not imply causation. Multiple factors influence observed trends including 
-            economic growth, policy interventions, infrastructure development, and measurement uncertainty. All findings should be 
-            validated against ground-truth data and considered within broader socio-economic context.
-        </div>
-    </div>
-
     <div class="main-card">
         <div class="split-view">
             <div class="map-section">
@@ -464,7 +453,6 @@ function getTimelineAnnotations() {
         borderpad: 4
     }));
 }
-
 function getTimelineShapes() {
     return timeline.map(event => ({
         type: 'line',
